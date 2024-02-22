@@ -5,18 +5,20 @@
 }
 body{
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: orange;
     margin: 0;
     
 }
 header{
-    background-color: #f60;
+    background-color: grey;
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
 #stories{
     margin-top: 20px;
+    text-align: center;
+    color: white;
 }
 .story{
     background-color: white;
@@ -25,6 +27,17 @@ header{
     margin-bottom: 10px;
 }
 
+
 @media (max-width: 600px){
+    body{
+        background-color: white;
+    }
+    header{
+        background-color: black;
+        color: grey;
+    }
+    #stories{
+        color: black;
+    }
     /*Mobile responsive adjusments*/
 }
